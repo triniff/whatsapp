@@ -1,0 +1,125 @@
+body{
+
+	padding: 0;
+	background-color: #dedede;
+}
+.whatsapp{
+	background-color: #009a8b;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+}
+.contenedor-chat{
+	padding: 20px 0;
+
+}
+/*ASIDE*/
+.perfil-user, .perfil-chat{
+	background-color: #dedede;
+	padding: 10px;
+	height: 70px;
+	box-sizing: border-box;
+	border: 1px solid #d9d9d9;
+}
+.foto-perfil img{
+	text-align: left;
+	width: 50px;
+	border-radius: 100%;
+}
+.buscador-contactos{
+	padding: 15px;
+	background-color: #fff;
+}
+.contactos{
+	background-color: #fff;
+}
+.perfil-contacto{
+	border-bottom: 1px solid #dedede;
+	padding: 15px 0;
+}
+.uno{
+	border-top: 1px solid #dedede;
+}
+.imagen-chat img{
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+}
+.datos h5{
+	margin: 0;
+	font-size:17px;
+}
+.datos p{
+	font-size: 14px;
+	color: #7e7e7e;
+	font-weight: bold;
+}
+.hora p{
+	font-size: 14px;
+	color: #7e7e7e;
+}
+/*CHAT*/
+.perfil-chat .imagen-chat, .perfil-chat .name-chat{
+	display: inline-block;
+}
+.name-chat h6, .name-chat p{
+	margin: 0;
+	padding: 0;
+}
+.chat-cont{
+	background-image: url(../image/chat-panel-bg.png);
+	background-color: #EDE9E2;
+}
+
+/*chat conv*/
+.conv{
+	overflow: scroll;
+	height: 70vh;
+	width: 100%;
+	padding: 20px;
+}
+.conv p{
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+.you{
+	float: right;
+	width: 51%;
+	text-align: right;
+	margin: 5px 0;
+	background-color: #D3FFC2;
+	border-radius: 5px;
+}
+
+.person{
+	float: left;
+	width: 51%;
+	margin: 5px 0;
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+}
+.conv .hora{
+	text-align: right;
+	padding: 0;
+}
+.x-person-uno h6{
+	color: #5EC3F6;
+}
+.x-person-dos h6{
+	color: #DEC500;
+}
+.x-person-res h6{
+	color: #00DA98;
+}
+.conv .text{
+	padding: 10px 10px 0 0;
+}
+.nuevo-mensaje{
+	padding: 10px;
+	background-color: #F2F0ED;
+}
+.nuevo-mensaje input{
+	border-color: transparent;
+}
